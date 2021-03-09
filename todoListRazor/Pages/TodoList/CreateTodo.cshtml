@@ -1,0 +1,12 @@
+﻿@page
+@model todoListRazor.Pages.TodoList.CreateTodoModel
+@{
+}
+
+
+<h1>Create a new Todo</h1>
+<form method="post">
+    <label for="Todo-Input"></label>
+    <input asp-for="Todo.TodoItem"/>
+    <button class="btn btn-success" onclick="post">Submit Todo</button>
+</form>

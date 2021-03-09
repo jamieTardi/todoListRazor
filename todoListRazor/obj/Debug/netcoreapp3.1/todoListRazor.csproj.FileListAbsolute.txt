@@ -78,3 +78,5 @@ C:\Users\jamie\source\repos\todoListRazor\todoListRazor\bin\Debug\netcoreapp3.1\
 C:\Users\jamie\source\repos\todoListRazor\todoListRazor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\jamie\source\repos\todoListRazor\todoListRazor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\jamie\source\repos\todoListRazor\todoListRazor\obj\Debug\netcoreapp3.1\Razor\Pages\TodoList\Index.cshtml.g.cs
+C:\Users\jamie\source\repos\todoListRazor\todoListRazor\obj\Debug\netcoreapp3.1\Razor\Pages\TodoList\CreateTodo.cshtml.g.cs
+C:\Users\jamie\source\repos\todoListRazor\todoListRazor\obj\Debug\netcoreapp3.1\Razor\Pages\TodoList\EditTodo.cshtml.g.cs
