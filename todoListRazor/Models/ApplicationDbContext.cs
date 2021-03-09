@@ -12,5 +12,7 @@ namespace todoListRazor.Models
         {
 
         }
+
+        public DbSet<Todo> Todo { get; set; }
     }
 }
