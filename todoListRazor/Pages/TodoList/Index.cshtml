@@ -26,7 +26,8 @@
                        <tr>
                            <th scope="row">@Html.DisplayFor(m => todo.Id)</th>
                            <td>@Html.DisplayFor(m => todo.TodoItem)</td>
-                           <td><button class="btn btn-success" asp-page="EditTodo">Edit</button></td>
+                           @*//Setting the correct route id for each todo*@
+                           <td><a class="btn btn-success" asp-page="EditTodo" asp-route-id="@todo.Id">Edit</a></td>
                            <td><button class="btn btn-danger">Delete</button></td>
                        </tr>
                                }

@@ -3,4 +3,15 @@
 @{
 }
 
-<h1>Edit the Todo</h1>
+<div class="container">
+    <h1>Edit the Todo</h1>
+    <form method="post">
+        <input type="hidden" asp-for="Todo.Id" />
+        <label asp-for="Todo.TodoItem"></label>
+        <input asp-for="Todo.TodoItem" class="form-control" />
+        <input type="submit" name="Edit Todo" value="Edit" class="btn btn-success" />
+    </form>
+</div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
