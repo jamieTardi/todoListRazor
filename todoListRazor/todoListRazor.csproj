@@ -13,8 +13,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Pages\TodoList\" />
-  </ItemGroup>
-
 </Project>
